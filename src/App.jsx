@@ -75,8 +75,8 @@ function App() {
         setChatHistory(prev => [...prev, {
           id: Date.now(),
           sender: 'orchestrator',
-          text: "The Artist Agent has finished! Your beautiful Nature Wheel poster is ready. (Check your Antigravity interface for the live generated artwork!).",
-          image: null
+          text: "The Artist Agent has finished! Your beautiful Nature Wheel poster is ready. Here is the final generated artwork:",
+          image: "/poster.png"
         }]);
         setActiveAgent('done');
       }, 5000);
