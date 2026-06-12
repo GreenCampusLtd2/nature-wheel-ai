@@ -39,6 +39,180 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-text-primary);
 }
 
+/* Layout */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .app-container {
+    flex-direction: row;
+  }
+}
+
+.sidebar {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-bottom: 1px solid var(--color-glass-border);
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    width: 33.333%;
+    border-bottom: none;
+    border-right: 1px solid var(--color-glass-border);
+  }
+}
+
+.sidebar-header h1 {
+  font-size: 2.5rem;
+  color: var(--color-accent);
+  margin-bottom: 0.5rem;
+}
+
+.sidebar-header p {
+  color: var(--color-text-secondary);
+}
+
+.agent-steps-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+  opacity: 0.6;
+}
+
+.chat-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .chat-area {
+    padding: 2rem;
+  }
+}
+
+.chat-history {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-bottom: 6rem; /* space for input */
+}
+
+.chat-row {
+  display: flex;
+  width: 100%;
+}
+
+.chat-row.user {
+  justify-content: flex-end;
+}
+
+.chat-row.orchestrator {
+  justify-content: flex-start;
+}
+
+.chat-bubble {
+  max-width: 80%;
+  padding: 1.25rem;
+  border-radius: 16px;
+  line-height: 1.5;
+}
+
+.chat-bubble.user {
+  background: var(--color-accent);
+  color: var(--color-bg-deep);
+  border-top-right-radius: 4px;
+}
+
+.chat-bubble.orchestrator {
+  background: var(--color-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--color-glass-border);
+  border-top-left-radius: 4px;
+}
+
+.input-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background: linear-gradient(to top, var(--color-bg-deep) 80%, transparent);
+}
+
+@media (min-width: 768px) {
+  .input-container {
+    padding: 2rem;
+  }
+}
+
+.input-form {
+  max-width: 48rem;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon {
+  position: absolute;
+  left: 1rem;
+  color: var(--color-text-secondary);
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.input-form:focus-within .input-icon {
+  opacity: 1;
+  color: var(--color-accent);
+}
+
+.submit-btn {
+  position: absolute;
+  right: 0.5rem;
+  background: transparent;
+  border: none;
+  color: var(--color-accent);
+  padding: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover:not(:disabled) {
+  background: rgba(129, 199, 132, 0.1);
+}
+
+.submit-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
 /* Glassmorphism Utilities */
 .glass-panel {
   background: var(--color-glass);
@@ -49,49 +223,76 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
 }
 
-.glass-button {
-  background: rgba(129, 199, 132, 0.15);
+.agent-step {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  border-radius: 12px;
+  transition: all 0.5s ease;
+}
+
+.agent-step.active {
+  background: var(--color-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--color-accent);
-  color: var(--color-text-primary);
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  font-family: var(--font-sans);
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.3s ease;
+  transform: scale(1.02);
+}
+
+.agent-step.done {
+  opacity: 0.8;
+}
+
+.agent-step.waiting {
+  opacity: 0.4;
+}
+
+.agent-icon-container {
+  padding: 0.75rem;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
 }
 
-.glass-button:hover:not(:disabled) {
+.agent-step.active .agent-icon-container {
   background: var(--color-accent);
   color: var(--color-bg-deep);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(129, 199, 132, 0.3);
 }
 
-.glass-button:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-  border-color: var(--color-glass-border);
+.agent-step.done .agent-icon-container {
+  background: rgba(129, 199, 132, 0.2);
+  color: var(--color-accent);
 }
 
-.glass-button:active:not(:disabled) {
-  transform: translateY(0);
+.agent-step.waiting .agent-icon-container {
+  background: var(--color-glass-border);
+  color: var(--color-text-secondary);
+}
+
+.agent-step-info h3 {
+  font-size: 1.125rem;
+  margin-bottom: 0.125rem;
+}
+
+.agent-step-info p {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  opacity: 0.8;
 }
 
 .glass-input {
   background: rgba(0, 0, 0, 0.2);
   border: 1px solid var(--color-glass-border);
   color: var(--color-text-primary);
-  padding: 1rem;
+  padding: 1rem 3.5rem 1rem 3rem;
   border-radius: 8px;
   width: 100%;
   font-family: var(--font-sans);
   font-size: 1rem;
   transition: all 0.3s ease;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
 }
 
 .glass-input:focus {
@@ -102,6 +303,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .glass-input::placeholder {
   color: rgba(165, 214, 167, 0.5);
+}
+
+/* Image output container */
+.artwork-container {
+  margin-top: 1rem;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 2px solid var(--color-accent);
+  box-shadow: 0 8px 32px 0 rgba(129, 199, 132, 0.2);
+  animation: fadeIn 1s ease forwards;
+}
+
+.artwork-container img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* Scrollbar styling */
@@ -130,10 +347,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @keyframes pulse-slow {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.8; transform: scale(1.05); }
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
 }
 
 .animate-pulse-slow {
-  animation: pulse-slow 3s infinite ease-in-out;
+  animation: pulse-slow 2s infinite ease-in-out;
 }
