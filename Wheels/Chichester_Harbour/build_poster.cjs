@@ -1,20 +1,9 @@
 const fs = require('fs');
+const path = require('path');
 
-// Read the massive dataset
 const rawData = fs.readFileSync('massive_species_data.json', 'utf-8');
 const data = JSON.parse(rawData);
 
-// The 6 placeholder assets we generated to prove the compositor
-const availableAssets = [
-  "species_assets/brent_goose.png",
-  "species_assets/harbour_seal.png",
-  "species_assets/sea_kale.png",
-  "species_assets/roe_deer.png",
-  "species_assets/common_tern.png",
-  "species_assets/cuttlefish.png"
-];
-
-// Scale up the canvas size to fit 100 species!
 const center = 4000;
 const radiusSteps = [1500, 2200, 2900, 3600];
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -44,7 +33,6 @@ let svgContent = `<svg xmlns="http://www.w3.org/2000/svg" width="8000" height="8
   <!-- Month Dividers -->
 `;
 
-// Draw month lines and labels
 months.forEach((month, i) => {
   const angle = i * 30;
   const outerPoint = polarToCartesian(center, center, 3900, angle);
@@ -54,36 +42,47 @@ months.forEach((month, i) => {
   svgContent += `  <text x="${labelPoint.x}" y="${labelPoint.y}" text-anchor="middle" transform="rotate(${angle + 15}, ${labelPoint.x}, ${labelPoint.y})" fill="#7a6b53" font-size="80" font-weight="bold" letter-spacing="8">${month.toUpperCase()}</text>\n`;
 });
 
-// Draw rings
 radiusSteps.forEach((r, i) => {
   svgContent += `  <circle cx="${center}" cy="${center}" r="${r}" fill="none" stroke="#d4c5b0" stroke-width="4" />\n`;
 });
 
-// Center Sun
 svgContent += `  <circle cx="${center}" cy="${center}" r="${500}" fill="url(#sun-grad)" stroke="#d99b22" stroke-width="12" filter="url(#shadow)" />\n`;
 svgContent += `  <text x="${center}" y="${center + 30}" text-anchor="middle" fill="#fff" font-size="120" font-weight="bold" letter-spacing="12">CHICHESTER</text>\n`;
 
-// Draw 100 Items!
-data.forEach((item, index) => {
-  // To spread out items within the same month/ring so they don't overlap exactly:
-  // We add a tiny radial and angular offset based on their index.
-  const spreadOffsetAngle = (index % 5) * 5 - 10; 
-  const spreadOffsetRadius = (index % 3) * 150 - 150;
+// To ensure consistent spreading, we'll maintain a specific offset index
+let renderIndex = 0;
+
+data.forEach((item) => {
+  const spreadOffsetAngle = (renderIndex % 5) * 5 - 10; 
+  const spreadOffsetRadius = (renderIndex % 3) * 150 - 150;
 
   const angle = (item.startMonth * 30) + 15 + spreadOffsetAngle;
   const r = radiusSteps[item.ring] - 250 + spreadOffsetRadius; 
   const point = polarToCartesian(center, center, r, angle);
   
-  // Pick one of the 6 generated assets randomly to serve as a placeholder 
-  // until the Artist Agent completes the 100 batch job.
-  const imageUrl = availableAssets[index % availableAssets.length];
+  // Format the expected filename based on the species name
+  const expectedFilename = item.name.toLowerCase().replace(/[^a-z0-9]/g, '_') + '.png';
+  const assetPath = path.join('species_assets', expectedFilename);
+  
+  let imageUrl = '';
+  // Check if we have generated an image for this specific species yet
+  if (fs.existsSync(assetPath)) {
+      imageUrl = assetPath;
+  }
 
   svgContent += `  <g transform="translate(${point.x}, ${point.y})">\n`;
-  svgContent += `    <image href="${imageUrl}" x="-100" y="-100" width="200" height="200" clip-path="url(#circle-clip)" preserveAspectRatio="xMidYMid slice" filter="url(#shadow)" />\n`;
-  svgContent += `    <circle cx="0" cy="0" r="100" fill="none" stroke="#fff" stroke-width="8" />\n`;
-  svgContent += `    <text x="0" y="140" text-anchor="middle" fill="#2c3e50" font-size="32" font-weight="bold">${item.name}</text>\n`;
   
-  // Word wrap for long descriptions
+  if (imageUrl) {
+      svgContent += `    <image href="${imageUrl}" x="-100" y="-100" width="200" height="200" clip-path="url(#circle-clip)" preserveAspectRatio="xMidYMid slice" filter="url(#shadow)" />\n`;
+  } else {
+      // Draw an empty placeholder ring if image is not generated yet
+      svgContent += `    <circle cx="0" cy="0" r="100" fill="#e9deca" stroke="#d4c5b0" stroke-width="4" filter="url(#shadow)" />\n`;
+      svgContent += `    <text x="0" y="10" text-anchor="middle" fill="#bfae96" font-size="24" font-style="italic">Pending Image</text>\n`;
+  }
+
+  svgContent += `    <circle cx="0" cy="0" r="100" fill="none" stroke="#fff" stroke-width="8" />\n`;
+  svgContent += `    <text x="0" y="140" text-anchor="middle" fill="#2c3e50" font-size="32" font-weight="bold">${item.name.replace('&', '&amp;')}</text>\n`;
+  
   const words = item.description.split(' ');
   let line1 = words.slice(0, Math.ceil(words.length/2)).join(' ');
   let line2 = words.slice(Math.ceil(words.length/2)).join(' ');
@@ -92,9 +91,10 @@ data.forEach((item, index) => {
       svgContent += `    <text x="0" y="215" text-anchor="middle" fill="#555" font-size="24">${line2.replace('&', '&amp;')}</text>\n`;
   }
   svgContent += `  </g>\n`;
+  renderIndex++;
 });
 
 svgContent += `</svg>`;
 
 fs.writeFileSync('massive_composite_poster.svg', svgContent);
-console.log('Successfully generated massive_composite_poster.svg with 100 items!');
+console.log('Successfully generated massive_composite_poster.svg mapped dynamically to species_assets!');
