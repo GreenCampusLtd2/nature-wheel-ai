@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="2000" viewBox="0 0 2000 2000">
+  <style>
+    .month-line { stroke: #ccc; stroke-width: 2; stroke-dasharray: 5,5; }
+    .month-text { font-family: sans-serif; font-size: 24px; font-weight: bold; fill: #666; text-anchor: middle; }
+    .ring { stroke: #eee; stroke-width: 1; fill: none; }
+    .ring-bg { fill: none; }
+    .sun { fill: #FFD700; stroke: #FFA500; stroke-width: 4; }
+    .category-label { font-family: sans-serif; font-size: 18px; fill: #aaa; font-style: italic; }
+  </style>
+  <rect width="2000" height="2000" fill="#f9f9f9" />
+  <!-- Rings -->
+  <circle cx="1000" cy="1000" r="400" class="ring" />
+  <circle cx="1000" cy="1000" r="550" class="ring" />
+  <circle cx="1000" cy="1000" r="750" class="ring" />
+  <circle cx="1000" cy="1000" r="950" class="ring" />
+  <text x="1000" y="615" class="category-label" text-anchor="middle">Land (Flora) - Inner Ring</text>
+  <text x="1000" y="465" class="category-label" text-anchor="middle">Land (Fauna) - Ring 2</text>
+  <text x="1000" y="265" class="category-label" text-anchor="middle">Air/Land (Avian) - Ring 3</text>
+  <text x="1000" y="65" class="category-label" text-anchor="middle">Sea (Marine) - Outer Ring</text>
+  <line x1="1000" y1="1000" x2="1000.0" y2="50.0" class="month-line" />
+  <text x="1251.0544737494452" y="63.05194849960378" class="month-text" transform="rotate(-75,1251.0544737494452,63.05194849960378)" dy="0.3em">January</text>
+  <line x1="1000" y1="1000" x2="1475.0" y2="177.2758664047832" class="month-line" />
+  <text x="1685.8935777509512" y="314.1064222490488" class="month-text" transform="rotate(-45,1685.8935777509512,314.1064222490488)" dy="0.3em">February</text>
+  <line x1="1000" y1="1000" x2="1822.7241335952167" y2="524.9999999999999" class="month-line" />
+  <text x="1936.948051500396" y="748.9455262505548" class="month-text" transform="rotate(-15,1936.948051500396,748.9455262505548)" dy="0.3em">March</text>
+  <line x1="1000" y1="1000" x2="1950.0" y2="999.9999999999999" class="month-line" />
+  <text x="1936.948051500396" y="1251.0544737494452" class="month-text" transform="rotate(195,1936.948051500396,1251.0544737494452)" dy="0.3em">April</text>
+  <line x1="1000" y1="1000" x2="1822.7241335952167" y2="1474.9999999999998" class="month-line" />
+  <text x="1685.8935777509512" y="1685.893577750951" class="month-text" transform="rotate(225,1685.8935777509512,1685.893577750951)" dy="0.3em">May</text>
+  <line x1="1000" y1="1000" x2="1475.0" y2="1822.7241335952167" class="month-line" />
+  <text x="1251.0544737494454" y="1936.948051500396" class="month-text" transform="rotate(255,1251.0544737494454,1936.948051500396)" dy="0.3em">June</text>
+  <line x1="1000" y1="1000" x2="1000.0000000000001" y2="1950.0" class="month-line" />
+  <text x="748.9455262505548" y="1936.948051500396" class="month-text" transform="rotate(285,748.9455262505548,1936.948051500396)" dy="0.3em">July</text>
+  <line x1="1000" y1="1000" x2="524.9999999999999" y2="1822.7241335952167" class="month-line" />
+  <text x="314.10642224904893" y="1685.8935777509514" class="month-text" transform="rotate(315,314.10642224904893,1685.8935777509514)" dy="0.3em">August</text>
+  <line x1="1000" y1="1000" x2="177.27586640478341" y2="1475.0000000000005" class="month-line" />
+  <text x="63.05194849960378" y="1251.054473749445" class="month-text" transform="rotate(345,63.05194849960378,1251.054473749445)" dy="0.3em">September</text>
+  <line x1="1000" y1="1000" x2="50.0" y2="1000.0000000000002" class="month-line" />
+  <text x="63.05194849960367" y="748.9455262505553" class="month-text" transform="rotate(195,63.05194849960367,748.9455262505553)" dy="0.3em">October</text>
+  <line x1="1000" y1="1000" x2="177.2758664047833" y2="524.9999999999999" class="month-line" />
+  <text x="314.1064222490487" y="314.10642224904905" class="month-text" transform="rotate(225,314.1064222490487,314.10642224904905)" dy="0.3em">November</text>
+  <line x1="1000" y1="1000" x2="524.9999999999995" y2="177.27586640478353" class="month-line" />
+  <text x="748.945526250555" y="63.05194849960378" class="month-text" transform="rotate(255,748.945526250555,63.05194849960378)" dy="0.3em">December</text>
+  <circle cx="1000" cy="1000" r="120" class="sun" />
+  <text x="1000" y="1000" font-family="sans-serif" font-size="36" font-weight="bold" fill="#B8860B" text-anchor="middle" dy="0.3em">SUN</text>
+  <path d="M 1138.56406460551 920.0 A 160 160 0 0 1 1080.0 1138.56406460551" fill="none" stroke="#4CAF50" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_0" d="M 1080.0 1138.56406460551 A 160 160 0 0 0 1138.56406460551 920.0" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_0" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#4CAF50">Lesser Celandine &amp; Wood Anemone:</tspan> Woodland wildflowers awaken
+    </textPath>
+  </text>
+  <path d="M 1190.0 1000.0 A 190 190 0 0 1 1049.175618569479 1183.525906994923" fill="none" stroke="#4CAF50" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_1" d="M 1049.175618569479 1183.525906994923 A 190 190 0 0 0 1190.0 1000.0" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_1" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#4CAF50">Early Purple Orchids:</tspan> Start blooming
+    </textPath>
+  </text>
+  <path d="M 1220.0 1000.0 A 220 220 0 0 1 1190.5255888325764 1110.0" fill="none" stroke="#4CAF50" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_2" d="M 1190.5255888325764 1110.0 A 220 220 0 0 0 1220.0 1000.0" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_2" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#4CAF50">English Bluebells:</tspan> Bloom in coastal woodlands
+    </textPath>
+  </text>
+  <path d="M 1250.0 1000.0 A 250 250 0 0 1 875.0 1216.5063509461097" fill="none" stroke="#4CAF50" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_3" d="M 875.0 1216.5063509461097 A 250 250 0 0 0 1250.0 1000.0" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_3" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#4CAF50">Sea Kale:</tspan> White flower heads to green pods
+    </textPath>
+  </text>
+  <path d="M 1197.9898987322333 1197.9898987322333 A 280 280 0 0 1 757.5128869403572 1140.0" fill="none" stroke="#4CAF50" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_4" d="M 757.5128869403572 1140.0 A 280 280 0 0 0 1197.9898987322333 1197.9898987322333" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_4" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#4CAF50">Common Spotted &amp; Bee Orchids:</tspan> Peak spring bloom
+    </textPath>
+  </text>
+  <path d="M 1155.0 1268.467875173176 A 310 310 0 0 1 780.7968978321703 1219.2031021678297" fill="none" stroke="#4CAF50" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_5" d="M 780.7968978321703 1219.2031021678297 A 310 310 0 0 0 1155.0 1268.467875173176" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_5" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#4CAF50">Pyramidal Orchids:</tspan> Begin blooming
+    </textPath>
+  </text>
+  <path d="M 1170.0 1294.448637286709 A 340 340 0 0 1 830.0 1294.448637286709" fill="none" stroke="#4CAF50" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_6" d="M 830.0 1294.448637286709 A 340 340 0 0 0 1170.0 1294.448637286709" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_6" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#4CAF50">Sea Pinks/Thrift, Lavender, Campion:</tspan> Thriving coastal flora
+    </textPath>
+  </text>
+  <path d="M 815.0 1320.4293994002423 A 370 370 0 0 1 630.0 1000.0000000000001" fill="none" stroke="#4CAF50" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_7" d="M 630.0 1000.0000000000001 A 370 370 0 0 0 815.0 1320.4293994002423" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_7" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#4CAF50">Blackberries:</tspan> Ripening for foraging
+    </textPath>
+  </text>
+  <path d="M 835.4551732809567 1095.0 A 190 190 0 0 1 835.4551732809566 905.0" fill="none" stroke="#4CAF50" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_8" d="M 835.4551732809567 1095.0 A 190 190 0 0 1 835.4551732809566 905.0" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_8" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#4CAF50">Oak trees:</tspan> Dropping mature acorns
+    </textPath>
+  </text>
+  <path d="M 809.4744111674236 1110.0 A 220 220 0 0 1 780.0 1000.0" fill="none" stroke="#4CAF50" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_9" d="M 780.0 1000.0 A 220 220 0 0 0 809.4744111674236 1110.0" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_9" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#4CAF50">Common Heather:</tspan> Late-season nectar
+    </textPath>
+  </text>
+  <path d="M 844.9999999999999 731.5321248268241 A 310 310 0 0 1 1155.0 731.532124826824" fill="none" stroke="#4CAF50" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_10" d="M 844.9999999999999 731.5321248268241 A 310 310 0 0 1 1155.0 731.532124826824" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_10" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#4CAF50">Winter dormancy:</tspan> Wildlife rely on remaining seeds
+    </textPath>
+  </text>
+  <path d="M 1389.7114317029973 1225.0 A 450 450 0 0 1 1000.0 1450.0" fill="none" stroke="#8D6E63" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_11" d="M 1000.0 1450.0 A 450 450 0 0 0 1389.7114317029973 1225.0" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_11" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#8D6E63">Roe Deer fawns:</tspan> Fawns are born in fields/woodlands
+    </textPath>
+  </text>
+  <path d="M 870.5904774487396 1482.9629131445342 A 500 500 0 0 1 646.4466094067263 1353.553390593274" fill="none" stroke="#8D6E63" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_12" d="M 646.4466094067263 1353.553390593274 A 500 500 0 0 0 870.5904774487396 1482.9629131445342" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_12" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#8D6E63">Roe Deer rutting:</tspan> Mating season, highly territorial stags
+    </textPath>
+  </text>
+  <path d="M 497.7052658050256 710.0 A 580 580 0 0 1 1580.0 999.9999999999998" fill="none" stroke="#03A9F4" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_13" d="M 497.7052658050256 710.0 A 580 580 0 0 1 1580.0 999.9999999999998" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_13" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#03A9F4">Overwintering Waders &amp; Wildfowl:</tspan> Tens of thousands settled / feeding heavily
+    </textPath>
+  </text>
+  <path d="M 1528.2754963085076 695.0 A 610 610 0 0 1 1610.0 1000.0" fill="none" stroke="#03A9F4" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_14" d="M 1528.2754963085076 695.0 A 610 610 0 0 1 1610.0 1000.0" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_14" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#03A9F4">Brent Geese departure:</tspan> Migrating back to Arctic Siberia
+    </textPath>
+  </text>
+  <path d="M 1640.0 1000.0 A 640 640 0 0 1 1554.256258422041 1320.0" fill="none" stroke="#03A9F4" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_15" d="M 1554.256258422041 1320.0 A 640 640 0 0 0 1640.0 1000.0" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_15" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#03A9F4">Ospreys:</tspan> Pass through heading north
+    </textPath>
+  </text>
+  <path d="M 1670.0 1000.0 A 670 670 0 0 1 1000.0000000000001 1670.0" fill="none" stroke="#03A9F4" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_16" d="M 1000.0000000000001 1670.0 A 670 670 0 0 0 1670.0 1000.0" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_16" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#03A9F4">Common Terns:</tspan> Arrive, nesting, breeding season peaks
+    </textPath>
+  </text>
+  <path d="M 393.782217350893 1350.0000000000002 A 700 700 0 0 1 300.0 1000.0000000000001" fill="none" stroke="#03A9F4" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_17" d="M 300.0 1000.0000000000001 A 700 700 0 0 0 393.782217350893 1350.0000000000002" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_17" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#03A9F4">Autumn migration (Early birds):</tspan> Arrival of Brent Geese &amp; returning waders
+    </textPath>
+  </text>
+  <path d="M 390.0 1000.0000000000001 A 610 610 0 0 1 471.7245036914925 695.0" fill="none" stroke="#03A9F4" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_18" d="M 390.0 1000.0000000000001 A 610 610 0 0 1 471.7245036914925 695.0" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_18" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#03A9F4">Brent Geese main influx:</tspan> Primary influx dramatically increases populations
+    </textPath>
+  </text>
+  <path d="M 679.9999999999998 445.74374157795944 A 640 640 0 0 1 999.9999999999999 360.0" fill="none" stroke="#03A9F4" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_19" d="M 679.9999999999998 445.74374157795944 A 640 640 0 0 1 999.9999999999999 360.0" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_19" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#03A9F4">Winter flocks fully established:</tspan> Feeding on exposed mudflats at low tide
+    </textPath>
+  </text>
+  <path d="M 448.456710674493 1551.5432893255072 A 780 780 0 0 1 1390.0 324.50018504813795" fill="none" stroke="#3F51B5" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_20" d="M 448.456710674493 1551.5432893255072 A 780 780 0 0 1 1390.0 324.50018504813795" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_20" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#3F51B5">Grey Seals:</tspan> Pupping season
+    </textPath>
+  </text>
+  <path d="M 1410.0 1710.1408311032396 A 820 820 0 0 1 289.8591688967605 1410.0000000000005" fill="none" stroke="#3F51B5" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_21" d="M 289.8591688967605 1410.0000000000005 A 820 820 0 0 0 1410.0 1710.1408311032396" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_21" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#3F51B5">Harbour Seals:</tspan> Pupping season on mudflats
+    </textPath>
+  </text>
+  <path d="M 1430.0 255.21815274538267 A 860 860 0 0 1 1860.0 1000.0" fill="none" stroke="#3F51B5" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_22" d="M 1430.0 255.21815274538267 A 860 860 0 0 1 1860.0 1000.0" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_22" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#3F51B5">Bass fishing closed season:</tspan> To protect stock
+    </textPath>
+  </text>
+  <path d="M 1779.4228634059948 1449.9999999999998 A 900 900 0 0 1 220.5771365940053 549.9999999999999" fill="none" stroke="#3F51B5" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_23" d="M 220.5771365940053 549.9999999999999 A 900 900 0 0 0 1779.4228634059948 1449.9999999999998" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_23" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#3F51B5">Bass nursery area restriction:</tspan> Boat fishing restrictions
+    </textPath>
+  </text>
+  <path d="M 1940.0 999.9999999999999 A 940 940 0 0 1 185.93612044262784 1470.0000000000005" fill="none" stroke="#3F51B5" stroke-width="20" stroke-opacity="0.2" />
+  <path id="path_24" d="M 185.93612044262784 1470.0000000000005 A 940 940 0 0 0 1940.0 999.9999999999999" fill="none" stroke="none" />
+  <text font-family="sans-serif" font-size="14" fill="#333">
+    <textPath href="#path_24" startOffset="50%" text-anchor="middle">
+      <tspan font-weight="bold" fill="#3F51B5">Cuttlefish:</tspan> Migrating to breed/spawn, dying off
+    </textPath>
+  </text>
+</svg>
