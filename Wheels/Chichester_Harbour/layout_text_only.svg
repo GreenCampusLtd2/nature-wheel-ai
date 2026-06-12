@@ -1,0 +1,540 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8000" height="8000" viewBox="0 0 8000 8000" style="background-color:#f4ebd8; font-family:Georgia, serif;">
+  <defs>
+    <radialGradient id="sun-grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb347" />
+      <stop offset="100%" stop-color="#ffcc33" />
+    </radialGradient>
+  </defs>
+
+  <!-- Month Dividers -->
+  <line x1="4000" y1="4000" x2="4000.0000000000005" y2="100" stroke="#d4c5b0" stroke-width="4" stroke-dasharray="20 20" />
+  <text x="5022.335228154957" y="184.59298615818034" text-anchor="middle" transform="rotate(15, 5022.335228154957, 184.59298615818034)" fill="#7a6b53" font-size="80" font-weight="bold" letter-spacing="8">JANUARY</text>
+  <line x1="4000" y1="4000" x2="5950" y2="622.5009252406894" stroke="#d4c5b0" stroke-width="4" stroke-dasharray="20 20" />
+  <text x="6793.071785686863" y="1206.9282143131377" text-anchor="middle" transform="rotate(45, 6793.071785686863, 1206.9282143131377)" fill="#7a6b53" font-size="80" font-weight="bold" letter-spacing="8">FEBRUARY</text>
+  <line x1="4000" y1="4000" x2="7377.499074759311" y2="2050" stroke="#d4c5b0" stroke-width="4" stroke-dasharray="20 20" />
+  <text x="7815.407013841819" y="2977.664771845043" text-anchor="middle" transform="rotate(75, 7815.407013841819, 2977.664771845043)" fill="#7a6b53" font-size="80" font-weight="bold" letter-spacing="8">MARCH</text>
+  <line x1="4000" y1="4000" x2="7900" y2="4000" stroke="#d4c5b0" stroke-width="4" stroke-dasharray="20 20" />
+  <text x="7815.407013841819" y="5022.335228154957" text-anchor="middle" transform="rotate(105, 7815.407013841819, 5022.335228154957)" fill="#7a6b53" font-size="80" font-weight="bold" letter-spacing="8">APRIL</text>
+  <line x1="4000" y1="4000" x2="7377.499074759311" y2="5950" stroke="#d4c5b0" stroke-width="4" stroke-dasharray="20 20" />
+  <text x="6793.071785686863" y="6793.071785686862" text-anchor="middle" transform="rotate(135, 6793.071785686863, 6793.071785686862)" fill="#7a6b53" font-size="80" font-weight="bold" letter-spacing="8">MAY</text>
+  <line x1="4000" y1="4000" x2="5950" y2="7377.499074759311" stroke="#d4c5b0" stroke-width="4" stroke-dasharray="20 20" />
+  <text x="5022.335228154957" y="7815.407013841819" text-anchor="middle" transform="rotate(165, 5022.335228154957, 7815.407013841819)" fill="#7a6b53" font-size="80" font-weight="bold" letter-spacing="8">JUNE</text>
+  <line x1="4000" y1="4000" x2="4000.0000000000005" y2="7900" stroke="#d4c5b0" stroke-width="4" stroke-dasharray="20 20" />
+  <text x="2977.6647718450427" y="7815.407013841819" text-anchor="middle" transform="rotate(195, 2977.6647718450427, 7815.407013841819)" fill="#7a6b53" font-size="80" font-weight="bold" letter-spacing="8">JULY</text>
+  <line x1="4000" y1="4000" x2="2050.000000000001" y2="7377.499074759311" stroke="#d4c5b0" stroke-width="4" stroke-dasharray="20 20" />
+  <text x="1206.9282143131377" y="6793.071785686863" text-anchor="middle" transform="rotate(225, 1206.9282143131377, 6793.071785686863)" fill="#7a6b53" font-size="80" font-weight="bold" letter-spacing="8">AUGUST</text>
+  <line x1="4000" y1="4000" x2="622.500925240689" y2="5950" stroke="#d4c5b0" stroke-width="4" stroke-dasharray="20 20" />
+  <text x="184.5929861581808" y="5022.335228154958" text-anchor="middle" transform="rotate(255, 184.5929861581808, 5022.335228154958)" fill="#7a6b53" font-size="80" font-weight="bold" letter-spacing="8">SEPTEMBER</text>
+  <line x1="4000" y1="4000" x2="100" y2="4000.0000000000005" stroke="#d4c5b0" stroke-width="4" stroke-dasharray="20 20" />
+  <text x="184.59298615817988" y="2977.6647718450445" text-anchor="middle" transform="rotate(285, 184.59298615817988, 2977.6647718450445)" fill="#7a6b53" font-size="80" font-weight="bold" letter-spacing="8">OCTOBER</text>
+  <line x1="4000" y1="4000" x2="622.5009252406894" y2="2049.9999999999995" stroke="#d4c5b0" stroke-width="4" stroke-dasharray="20 20" />
+  <text x="1206.9282143131368" y="1206.9282143131377" text-anchor="middle" transform="rotate(315, 1206.9282143131368, 1206.9282143131377)" fill="#7a6b53" font-size="80" font-weight="bold" letter-spacing="8">NOVEMBER</text>
+  <line x1="4000" y1="4000" x2="2049.999999999998" y2="622.5009252406899" stroke="#d4c5b0" stroke-width="4" stroke-dasharray="20 20" />
+  <text x="2977.6647718450436" y="184.59298615818034" text-anchor="middle" transform="rotate(345, 2977.6647718450436, 184.59298615818034)" fill="#7a6b53" font-size="80" font-weight="bold" letter-spacing="8">DECEMBER</text>
+  <circle cx="4000" cy="4000" r="1500" fill="none" stroke="#d4c5b0" stroke-width="4" />
+  <circle cx="4000" cy="4000" r="2200" fill="none" stroke="#d4c5b0" stroke-width="4" />
+  <circle cx="4000" cy="4000" r="2900" fill="none" stroke="#d4c5b0" stroke-width="4" />
+  <circle cx="4000" cy="4000" r="3600" fill="none" stroke="#d4c5b0" stroke-width="4" />
+  <circle cx="4000" cy="4000" r="500" fill="url(#sun-grad)" stroke="#d99b22" stroke-width="12" />
+  <text x="4000" y="4030" text-anchor="middle" fill="#fff" font-size="120" font-weight="bold" letter-spacing="12">CHICHESTER</text>
+  <g transform="translate(3369.06592001385, 4901.067248717891)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Sea Aster</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Late summer blooming covering</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">saltmarshes in pale purple.</text>
+  </g>
+  <g transform="translate(2825.3842240176145, 4427.525179157086)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Glasswort</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Fleshy stems turn brilliant red</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">and orange in autumn.</text>
+  </g>
+  <g transform="translate(3637.6533368564706, 5352.296156804696)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Sea Purslane</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Silvery-grey leaves with tiny yellow</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">flowers forming dense coastal mats.</text>
+  </g>
+  <g transform="translate(4191.0129954336235, 5083.288528313429)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Marram Grass</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Tall seed heads sway on</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">the dunes of West Wittering.</text>
+  </g>
+  <g transform="translate(4108.944678434573, 5245.243372614682)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Sea Bindweed</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Large pink and white trumpet flowers</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">bloom across the sand dunes.</text>
+  </g>
+  <g transform="translate(3877.9819601532786, 5394.672577328443)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Sea Holly</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Striking metallic blue, thistle-like</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">blooms on sandy shores.</text>
+  </g>
+  <g transform="translate(4376.222157658236, 5033.661882864499)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Sea Campion</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Carpets of delicate white flowers</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">with swollen, bladder-like calyxes.</text>
+  </g>
+  <g transform="translate(4883.8834764831845, 4883.8834764831845)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Thrift</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Dense cushions of bright pink flowers</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">bloom on the saltmarsh edges.</text>
+  </g>
+  <g transform="translate(4243.107448733703, 5378.730854217091)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Yellow Horned-poppy</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Vibrant yellow blooms followed by</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">distinctive long, curved seed pods.</text>
+  </g>
+  <g transform="translate(4095.871317022424, 5095.81416790092)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Sea Rocket</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Fleshy leaves and pale lilac</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">flowers appear along the strandline.</text>
+  </g>
+  <g transform="translate(5023.9400553612395, 4716.970545438808)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Sea Spurge</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Architectural blue-green foliage with</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">small yellow-green flowers.</text>
+  </g>
+  <g transform="translate(4478.828200655937, 5315.569669100271)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Viper's Bugloss</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Tall spikes of intense blue flowers</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">attract multitudes of coastal bees.</text>
+  </g>
+  <g transform="translate(4284.700949612773, 5062.518408917975)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Pyramidal Orchid</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Vivid pink, cone-shaped flower spikes</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">emerge in the dune slacks.</text>
+  </g>
+  <g transform="translate(4217.060222083663, 5231.00969126526)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Southern Marsh Orchid</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Robust stems with purple patterned flowers</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">bloom in damp coastal meadows.</text>
+  </g>
+  <g transform="translate(5268.83090185131, 4591.665566436979)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">English Scurvygrass</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Early flowering white clusters appear</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">on muddy banks and creeks.</text>
+  </g>
+  <g transform="translate(3904.128682977576, 5095.81416790092)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Common Sea-lavender</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Widespread misty purple blooms turn</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">the summer saltmarsh vibrant.</text>
+  </g>
+  <g transform="translate(3782.9397779163373, 5231.00969126526)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Golden Samphire</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Bright yellow daisy-like flowers adorn</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">the higher shingle and marsh.</text>
+  </g>
+  <g transform="translate(3010.0505063388337, 4989.949493661166)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Sea Wormwood</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Aromatic silver foliage peaks in</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">late summer before autumn winds.</text>
+  </g>
+  <g transform="translate(3623.7778423417644, 5033.6618828645)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Cordgrass</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Flowering spikes emerge, helping</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">bind the mudflats together.</text>
+  </g>
+  <g transform="translate(3471.727172824126, 5132.884733795812)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Sea Beet</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Glossy green leaves and subtle green</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">flowering spikes appear on the shingle.</text>
+  </g>
+  <g transform="translate(3196.9929891085358, 5146.812862004589)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Bittersweet</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Bright red poisonous berries</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">dangle from scrambling vines.</text>
+  </g>
+  <g transform="translate(4376.222157658236, 5033.661882864499)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Rock Samphire</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Umbels of yellowish-green flowers bloom</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">on shingle and coastal defenses.</text>
+  </g>
+  <g transform="translate(4323.523806378151, 5207.407282861335)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Sea Mayweed</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Daisy-like blooms with thick fleshy leaves</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">grow at the high tide mark.</text>
+  </g>
+  <g transform="translate(4243.107448733703, 5378.730854217091)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Hound's-tongue</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Dull reddish-purple flowers bloom</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">on dune grasslands.</text>
+  </g>
+  <g transform="translate(4095.871317022424, 5095.81416790092)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Evening Primrose</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Large yellow flowers open at</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">dusk to attract night-flying moths.</text>
+  </g>
+  <g transform="translate(3830.0463016420663, 5942.579661278904)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Roe Deer</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Bucks aggressively chase does</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">during the mid-summer rut.</text>
+  </g>
+  <g transform="translate(6068.096281325637, 4364.661173100554)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Red Fox</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Fox cubs emerge from their earths</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">to play in the spring twilight.</text>
+  </g>
+  <g transform="translate(5272.792206135786, 2727.2077938642146)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Brown Hare</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Mad March hares box in</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">the fields surrounding the harbour.</text>
+  </g>
+  <g transform="translate(5832.400610532522, 4666.939279485054)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">European Badger</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Young cubs begin foraging outside the</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">sett during warm spring evenings.</text>
+  </g>
+  <g transform="translate(2279.7807069931177, 5204.510516337197)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Common Pipistrelle</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Bats swarm and feed heavily</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">on insects before hibernation.</text>
+  </g>
+  <g transform="translate(5793.150456565142, 4156.880336945785)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Water Vole</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Active feeding and territory marking</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">along the freshwater ditches.</text>
+  </g>
+  <g transform="translate(5832.400610532522, 3333.060720514946)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Common Lizard</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Basking in the open on the</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">warm sand dunes of East Head.</text>
+  </g>
+  <g transform="translate(6028.444235207044, 4543.519994715293)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Slow Worm</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Mating season sees these legless lizards</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">tangling together in the undergrowth.</text>
+  </g>
+  <g transform="translate(5157.017697435771, 5378.87999761416)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Grass Snake</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Swimming hunting expeditions through the</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">coastal grazing marsh ditches.</text>
+  </g>
+  <g transform="translate(5942.579661278904, 3830.0463016420667)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Adder</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Males perform the 'dance of</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">the adders' to establish dominance.</text>
+  </g>
+  <g transform="translate(5720.219293006883, 5204.510516337197)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Stag Beetle</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Males fly clumsily at dusk on</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">warm summer evenings looking for mates.</text>
+  </g>
+  <g transform="translate(4615.636257986203, 5691.446717414635)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Marbled White Butterfly</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Striking black and white butterflies</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">emerge over the coastal grasslands.</text>
+  </g>
+  <g transform="translate(4504.6971379499155, 5883.555361263683)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Sand Wasp</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Females dig burrows in the dunes</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">and drag paralyzed caterpillars inside.</text>
+  </g>
+  <g transform="translate(5349.8539803417325, 5608.693330549853)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Painted Lady Butterfly</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Mass migrations arrive from North</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">Africa across the Channel.</text>
+  </g>
+  <g transform="translate(4156.880336945785, 5793.150456565142)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Hummingbird Hawk-moth</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Hovering like tiny birds to feed</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">on viper's bugloss and sea bindweed.</text>
+  </g>
+  <g transform="translate(2881.5259491154607, 5597.3464863635345)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Wasp Spider</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Large striped females spin orb webs</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">in the tall dune grasses.</text>
+  </g>
+  <g transform="translate(4718.242300983905, 5973.354503650407)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Emperor Dragonfly</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Large, aggressive males endlessly</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">patrol coastal ponds.</text>
+  </g>
+  <g transform="translate(5272.792206135786, 5272.792206135786)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Broad-bodied Chaser</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Freshly emerged dragonflies hunt</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">over the marshland ditches.</text>
+  </g>
+  <g transform="translate(2506.2133359179934, 5253.435838888752)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Common Darter</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Late-season dragonflies sunning themselves</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">on wooden boardwalks.</text>
+  </g>
+  <g transform="translate(3112.5016503445313, 5903.246352776965)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Roesel's Bush-cricket</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Continuous high-pitched buzzing fills the</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">air in tall grass.</text>
+  </g>
+  <g transform="translate(4760.712871133259, 5631.3540166659695)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Glow-worm</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Females emit a steady green glow</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">at night to attract flying males.</text>
+  </g>
+  <g transform="translate(5832.400610532522, 3333.060720514946)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Buff-tailed Bumblebee</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Large queens emerge from hibernation to</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">forage on early coastal blossoms.</text>
+  </g>
+  <g transform="translate(4543.519994715293, 6028.444235207044)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Six-spot Burnet Moth</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Day-flying red and black moths</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">swarm the dune flowers.</text>
+  </g>
+  <g transform="translate(3384.3637420137966, 5691.446717414636)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Cinnabar Moth</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Striking yellow and black caterpillars</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">devour ragwort on the dunes.</text>
+  </g>
+  <g transform="translate(5597.3464863635345, 2881.52594911546)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Common Toad</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Mass migrations to breeding ponds</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">result in loud spawning congregations.</text>
+  </g>
+  <g transform="translate(1210.6548453431124, 3755.9639203065576)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Brent Goose</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Thousands arrive from Siberia, forming</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">massive, noisy winter flocks.</text>
+  </g>
+  <g transform="translate(2084.8888922025544, 2393.030975783652)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Dunlin</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Huge winter flocks perform synchronized</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">aerial murmurations over the mudflats.</text>
+  </g>
+  <g transform="translate(2126.167029855649, 5873.832970144351)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Black-tailed Godwit</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Probing the winter mudflats with</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">their long, straight bills.</text>
+  </g>
+  <g transform="translate(6144.924440733139, 2200.19469287769)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Oystercatcher</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Loud, high-pitched piping displays</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">echo across the harbour.</text>
+  </g>
+  <g transform="translate(1734.230532408375, 2943.4543456482515)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Curlew</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Evocative bubbling calls ring out</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">across the winter estuarine mud.</text>
+  </g>
+  <g transform="translate(6639.915949943126, 4230.962718281294)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Redshank</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Noisy 'wardens of the marsh'</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">perform yodeling display flights.</text>
+  </g>
+  <g transform="translate(6757.461708434183, 4486.214897467405)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Ringed Plover</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Camouflaged breeding and protective distraction</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">displays on the shingle.</text>
+  </g>
+  <g transform="translate(5767.766952966369, 5767.766952966369)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Little Tern</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Chattering summer visitors plunge-diving for</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">fish in the shallow creeks.</text>
+  </g>
+  <g transform="translate(5703.387165669329, 6030.017774265292)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Common Tern</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Elaborate aerial courtship</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">and fish-offering displays.</text>
+  </g>
+  <g transform="translate(5606.0140217829285, 6293.625724009177)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Sandwich Tern</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Noisy, grating calls as they dive</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">steeply into the harbour waters.</text>
+  </g>
+  <g transform="translate(5056.545654351748, 6265.769467591625)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Shelduck</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Adults escort large crèches of ducklings</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">across the mud at low tide.</text>
+  </g>
+  <g transform="translate(1390.259454517649, 3539.832329182634)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Wigeon</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Flocks of grazing ducks fill the</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">air with sharp, whistling calls.</text>
+  </g>
+  <g transform="translate(3275.306673712942, 1295.407686390609)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Teal</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Males perform intricate head-flicking courtship</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">displays on the water.</text>
+  </g>
+  <g transform="translate(3565.879555832674, 1537.98061746948)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Pintail</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Elegant ducks gather in courtship groups,</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">rearing up in the water.</text>
+  </g>
+  <g transform="translate(6639.915949943126, 3769.037281718706)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Lapwing</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Tumbling, acrobatic flight displays over</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">the coastal grazing marshes.</text>
+  </g>
+  <g transform="translate(6537.66180370262, 2816.6688671260417)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Skylark</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Continuous, complex songs delivered from high</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">hovering flights over the dunes.</text>
+  </g>
+  <g transform="translate(6462.01938253052, 4434.120444167326)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Meadow Pipit</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Parachuting display flights from the</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">scrub to the saltmarsh.</text>
+  </g>
+  <g transform="translate(6559.703439666031, 4685.87046952168)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Reed Bunting</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Males sing their simple, repetitive</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">song from prominent reed stems.</text>
+  </g>
+  <g transform="translate(6757.461708434183, 3513.785102532595)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Cetti's Warbler</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Sudden, explosive bursts of song from</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">deep within the damp scrub.</text>
+  </g>
+  <g transform="translate(6265.769467591625, 5056.545654351748)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Sedge Warbler</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Scratchy, erratic flight songs over</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">the reedbeds and ditches.</text>
+  </g>
+  <g transform="translate(6170.752917365828, 5519.977556330272)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Reed Warbler</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Rhythmic, churring song echoing continuously</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">through the phragmites reeds.</text>
+  </g>
+  <g transform="translate(6631.1393382005435, 3042.3435986881277)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Little Egret</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Displaying striking white nuptial plumes</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">during the breeding season.</text>
+  </g>
+  <g transform="translate(5767.766952966369, 2232.233047033631)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Grey Heron</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Noisy clattering and bill-snapping in</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">the heronries during nesting.</text>
+  </g>
+  <g transform="translate(1969.9822257347087, 5703.38716566933)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Osprey</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Stopping over to fish in the</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">harbour during their autumn migration south.</text>
+  </g>
+  <g transform="translate(6789.345154656888, 3755.963920306557)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Marsh Harrier</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Breathtaking sky-dancing displays high</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">above the reedbeds.</text>
+  </g>
+  <g transform="translate(5352.378437570238, 6900.18491851728)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Harbour Seal</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Mothers give birth to pups</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">on the secluded mudbanks.</text>
+  </g>
+  <g transform="translate(852.0297203672071, 5145.76748014099)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Grey Seal</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Hauling out on the sandbanks at</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">low tide in larger numbers.</text>
+  </g>
+  <g transform="translate(3094.133342141177, 7380.7403920117395)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Bottlenose Dolphin</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Occasional summer pods chase fish</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">into the harbour mouth.</text>
+  </g>
+  <g transform="translate(6451.342217980729, 1943.0796490030743)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">European Bass</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Spawning adults migrate into the</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">warmer, shallower harbour waters.</text>
+  </g>
+  <g transform="translate(4291.971738204655, 7337.252238607347)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Grey Mullet</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Large shoals cruise just below the</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">surface in the shallow creeks.</text>
+  </g>
+  <g transform="translate(7172.077254628275, 2520.836083907552)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">European Eel</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Tiny transparent elvers migrate from</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">the sea into freshwater streams.</text>
+  </g>
+  <g transform="translate(5094.46445864214, 7007.016386514906)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Atlantic Mackerel</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Fast-moving shoals hunt small fry</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">near the harbour entrance.</text>
+  </g>
+  <g transform="translate(7235.851518068379, 4867.043801093445)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Cuttlefish</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Arrive in the shallow harbour waters to</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">mate and lay black 'sea grape' eggs.</text>
+  </g>
+  <g transform="translate(6249.756633902887, 6681.155550916423)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Native Oyster</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Mass spawning events release millions of</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">larvae into the tidal currents.</text>
+  </g>
+  <g transform="translate(5835.4445963233475, 6621.286541724774)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Shore Crab</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Moulting crabs seek shelter while</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">soft, and mating pairs embrace.</text>
+  </g>
+  <g transform="translate(6744.159348368123, 5921.481061776004)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Edible Crab</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Adults migrate inshore to breed and</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">feed in the harbour's rocky margins.</text>
+  </g>
+  <g transform="translate(5197.070501639841, 7288.92417275068)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">European Lobster</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Berried (egg-carrying) females move</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">into shallower waters.</text>
+  </g>
+  <g transform="translate(6262.741699796952, 6262.741699796952)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Common Prawn</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Rockpools and eelgrass beds teem</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">with translucent, darting prawns.</text>
+  </g>
+  <g transform="translate(6153.338492449907, 6566.248884448576)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Snakelocks Anemone</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Bright green, purple-tipped tentacles fully</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">expand in the warming waters.</text>
+  </g>
+  <g transform="translate(4305.045099616804, 7486.681443321109)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Beadlet Anemone</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Releasing fully-formed miniature young</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">into the water column.</text>
+  </g>
+  <g transform="translate(7187.823033893586, 4278.8983767925065)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Common Starfish</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Mass congregations feed aggressively on</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">the rich mussel beds.</text>
+  </g>
+  <g transform="translate(5145.76748014099, 7147.970279632793)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Moon Jellyfish</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Pulsing swarms bloom in the</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">warm, nutrient-rich summer waters.</text>
+  </g>
+  <g transform="translate(3094.133342141177, 7380.7403920117395)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Compass Jellyfish</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Distinctive V-shaped marked jellies drift</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">in with the summer tides.</text>
+  </g>
+  <g transform="translate(1548.6577820192706, 6056.920350996927)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Lugworm</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Millions of sand casts appear on</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">the mudflats at low tide.</text>
+  </g>
+  <g transform="translate(7036.131086572777, 5415.771176831343)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Ragworm</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Mass spawning swarms perform frantic</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">nuptial dances at the surface.</text>
+  </g>
+  <g transform="translate(3694.954900383196, 7486.681443321109)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Dwarf Eelgrass</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Tiny underwater flowers bloom and</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">release seeds onto the mudflats.</text>
+  </g>
+  <g transform="translate(5094.46445864214, 7007.016386514906)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Common Eelgrass</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Dense underwater meadows reach their peak</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">growth, providing crucial nursery habitats.</text>
+  </g>
+  <g transform="translate(6368.807716974934, 6368.807716974934)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Sea Lettuce</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Explosive bright green algal blooms</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">cover the nutrient-rich mud.</text>
+  </g>
+  <g transform="translate(7288.92417275068, 5197.070501639841)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Bladder Wrack</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Swollen fruiting bodies release gametes</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">into the spring tides.</text>
+  </g>
+  <g transform="translate(6900.18491851728, 5352.378437570238)">
+    <text x="0" y="0" text-anchor="middle" fill="#2c3e50" font-size="36" font-weight="bold">Peacock Worm</text>
+    <text x="0" y="40" text-anchor="middle" fill="#555" font-size="28">Elegant fan-like crowns extend from</text>
+    <text x="0" y="80" text-anchor="middle" fill="#555" font-size="28">muddy tubes to filter feed.</text>
+  </g>
+</svg>
