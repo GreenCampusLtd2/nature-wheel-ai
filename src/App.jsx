@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Send, MapPin, Search, Compass, Paintbrush, CheckCircle2 } from 'lucide-react';
+import PosterCanvas from './PosterCanvas';
 import './index.css';
 
 function App() {
@@ -75,8 +76,13 @@ function App() {
         setChatHistory(prev => [...prev, {
           id: Date.now(),
           sender: 'orchestrator',
-          text: "The Artist Agent has finished! Your beautiful Nature Wheel poster is ready. Here is the final generated artwork:",
-          image: "/poster.png"
+          text: "The Swarm has finished! Here is your true V2 Programmatic Nature Wheel poster with individual species artwork:",
+          posterData: [
+            { name: "Brent Goose", description: "Wintering flocks", startMonth: 0, endMonth: 2, ring: 2, imageUrl: "https://images.unsplash.com/photo-1555099962-4199c345e5dd?w=200&h=200&fit=crop" },
+            { name: "Common Seal", description: "Pupping season", startMonth: 5, endMonth: 7, ring: 3, imageUrl: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=200&h=200&fit=crop" },
+            { name: "Sea Kale", description: "Blooming", startMonth: 4, endMonth: 5, ring: 0, imageUrl: "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=200&h=200&fit=crop" },
+            { name: "Roe Deer", description: "Rutting season", startMonth: 6, endMonth: 7, ring: 1, imageUrl: "https://images.unsplash.com/photo-1480044965905-02098d419e96?w=200&h=200&fit=crop" }
+          ]
         }]);
         setActiveAgent('done');
       }, 5000);
@@ -149,8 +155,13 @@ function App() {
               <div className={`chat-bubble ${msg.sender}`}>
                 {msg.text}
                 {msg.image && (
-                  <div className="artwork-container">
-                    <img src={msg.image} alt="Generated Nature Poster" />
+                  <div className="message-image-container">
+                    <img src={msg.image} alt="Nature Wheel Output" className="message-image" />
+                  </div>
+                )}
+                {msg.posterData && (
+                  <div className="message-poster-container" style={{ marginTop: '20px', width: '100%', maxWidth: '800px' }}>
+                    <PosterCanvas data={msg.posterData} />
                   </div>
                 )}
               </div>
