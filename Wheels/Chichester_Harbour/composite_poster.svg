@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000" viewBox="0 0 3000 3000" style="background-color:#f4ebd8; font-family:Georgia, serif;">
+  <defs>
+    <radialGradient id="sun-grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb347" />
+      <stop offset="100%" stop-color="#ffcc33" />
+    </radialGradient>
+    <clipPath id="circle-clip">
+      <circle cx="0" cy="0" r="100" />
+    </clipPath>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000" flood-opacity="0.1" />
+    </filter>
+  </defs>
+
+  <!-- Month Dividers -->
+  <line x1="1500" y1="1500" x2="1500" y2="100" stroke="#d4c5b0" stroke-width="2" stroke-dasharray="10 10" />
+  <text x="1875.2876153986551" y="99.40755188085086" text-anchor="middle" transform="rotate(15, 1875.2876153986551, 99.40755188085086)" fill="#7a6b53" font-size="32" font-weight="bold" letter-spacing="4">JANUARY</text>
+  <line x1="1500" y1="1500" x2="2200" y2="287.564434701786" stroke="#d4c5b0" stroke-width="2" stroke-dasharray="10 10" />
+  <text x="2525.3048327204942" y="474.6951672795062" text-anchor="middle" transform="rotate(45, 2525.3048327204942, 474.6951672795062)" fill="#7a6b53" font-size="32" font-weight="bold" letter-spacing="4">FEBRUARY</text>
+  <line x1="1500" y1="1500" x2="2712.435565298214" y2="800.0000000000001" stroke="#d4c5b0" stroke-width="2" stroke-dasharray="10 10" />
+  <text x="2900.592448119149" y="1124.7123846013449" text-anchor="middle" transform="rotate(75, 2900.592448119149, 1124.7123846013449)" fill="#7a6b53" font-size="32" font-weight="bold" letter-spacing="4">MARCH</text>
+  <line x1="1500" y1="1500" x2="2900" y2="1500" stroke="#d4c5b0" stroke-width="2" stroke-dasharray="10 10" />
+  <text x="2900.592448119149" y="1875.2876153986551" text-anchor="middle" transform="rotate(105, 2900.592448119149, 1875.2876153986551)" fill="#7a6b53" font-size="32" font-weight="bold" letter-spacing="4">APRIL</text>
+  <line x1="1500" y1="1500" x2="2712.435565298214" y2="2200" stroke="#d4c5b0" stroke-width="2" stroke-dasharray="10 10" />
+  <text x="2525.3048327204942" y="2525.304832720494" text-anchor="middle" transform="rotate(135, 2525.3048327204942, 2525.304832720494)" fill="#7a6b53" font-size="32" font-weight="bold" letter-spacing="4">MAY</text>
+  <line x1="1500" y1="1500" x2="2200" y2="2712.435565298214" stroke="#d4c5b0" stroke-width="2" stroke-dasharray="10 10" />
+  <text x="1875.2876153986551" y="2900.592448119149" text-anchor="middle" transform="rotate(165, 1875.2876153986551, 2900.592448119149)" fill="#7a6b53" font-size="32" font-weight="bold" letter-spacing="4">JUNE</text>
+  <line x1="1500" y1="1500" x2="1500" y2="2900" stroke="#d4c5b0" stroke-width="2" stroke-dasharray="10 10" />
+  <text x="1124.7123846013446" y="2900.592448119149" text-anchor="middle" transform="rotate(195, 1124.7123846013446, 2900.592448119149)" fill="#7a6b53" font-size="32" font-weight="bold" letter-spacing="4">JULY</text>
+  <line x1="1500" y1="1500" x2="800.0000000000003" y2="2712.435565298214" stroke="#d4c5b0" stroke-width="2" stroke-dasharray="10 10" />
+  <text x="474.6951672795062" y="2525.3048327204942" text-anchor="middle" transform="rotate(225, 474.6951672795062, 2525.3048327204942)" fill="#7a6b53" font-size="32" font-weight="bold" letter-spacing="4">AUGUST</text>
+  <line x1="1500" y1="1500" x2="287.5644347017858" y2="2200" stroke="#d4c5b0" stroke-width="2" stroke-dasharray="10 10" />
+  <text x="99.40755188085109" y="1875.2876153986554" text-anchor="middle" transform="rotate(255, 99.40755188085109, 1875.2876153986554)" fill="#7a6b53" font-size="32" font-weight="bold" letter-spacing="4">SEPTEMBER</text>
+  <line x1="1500" y1="1500" x2="100" y2="1500.0000000000002" stroke="#d4c5b0" stroke-width="2" stroke-dasharray="10 10" />
+  <text x="99.40755188085086" y="1124.7123846013455" text-anchor="middle" transform="rotate(285, 99.40755188085086, 1124.7123846013455)" fill="#7a6b53" font-size="32" font-weight="bold" letter-spacing="4">OCTOBER</text>
+  <line x1="1500" y1="1500" x2="287.564434701786" y2="799.9999999999999" stroke="#d4c5b0" stroke-width="2" stroke-dasharray="10 10" />
+  <text x="474.69516727950577" y="474.6951672795062" text-anchor="middle" transform="rotate(315, 474.69516727950577, 474.6951672795062)" fill="#7a6b53" font-size="32" font-weight="bold" letter-spacing="4">NOVEMBER</text>
+  <line x1="1500" y1="1500" x2="799.9999999999994" y2="287.564434701786" stroke="#d4c5b0" stroke-width="2" stroke-dasharray="10 10" />
+  <text x="1124.712384601345" y="99.40755188085086" text-anchor="middle" transform="rotate(345, 1124.712384601345, 99.40755188085086)" fill="#7a6b53" font-size="32" font-weight="bold" letter-spacing="4">DECEMBER</text>
+  <circle cx="1500" cy="1500" r="500" fill="none" stroke="#d4c5b0" stroke-width="2" />
+  <circle cx="1500" cy="1500" r="750" fill="none" stroke="#d4c5b0" stroke-width="2" />
+  <circle cx="1500" cy="1500" r="1000" fill="none" stroke="#d4c5b0" stroke-width="2" />
+  <circle cx="1500" cy="1500" r="1250" fill="none" stroke="#d4c5b0" stroke-width="2" />
+  <circle cx="1500" cy="1500" r="200" fill="url(#sun-grad)" stroke="#d99b22" stroke-width="6" filter="url(#shadow)" />
+  <text x="1500" y="1515" text-anchor="middle" fill="#fff" font-size="48" font-weight="bold" letter-spacing="6">CHICHESTER</text>
+  <g transform="translate(1726.4666644647057, 654.8149019970652)">
+    <image href="species_assets/brent_goose.png" x="-100" y="-100" width="200" height="200" clip-path="url(#circle-clip)" preserveAspectRatio="xMidYMid slice" filter="url(#shadow)" />
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#fff" stroke-width="4" />
+    <text x="0" y="130" text-anchor="middle" fill="#2c3e50" font-size="28" font-weight="bold">Brent Goose</text>
+    <text x="0" y="160" text-anchor="middle" fill="#555" font-size="20">Peak overwintering season. Tens</text>
+    <text x="0" y="185" text-anchor="middle" fill="#555" font-size="20">of thousands settled.</text>
+  </g>
+  <g transform="translate(1791.171425740336, 2586.666554575202)">
+    <image href="species_assets/harbour_seal.png" x="-100" y="-100" width="200" height="200" clip-path="url(#circle-clip)" preserveAspectRatio="xMidYMid slice" filter="url(#shadow)" />
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#fff" stroke-width="4" />
+    <text x="0" y="130" text-anchor="middle" fill="#2c3e50" font-size="28" font-weight="bold">Common Seal</text>
+    <text x="0" y="160" text-anchor="middle" fill="#555" font-size="20">Pupping season begins on</text>
+    <text x="0" y="185" text-anchor="middle" fill="#555" font-size="20">the harbour mudflats.</text>
+  </g>
+  <g transform="translate(1765.1650429449553, 1765.1650429449553)">
+    <image href="species_assets/sea_kale.png" x="-100" y="-100" width="200" height="200" clip-path="url(#circle-clip)" preserveAspectRatio="xMidYMid slice" filter="url(#shadow)" />
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#fff" stroke-width="4" />
+    <text x="0" y="130" text-anchor="middle" fill="#2c3e50" font-size="28" font-weight="bold">Sea Kale</text>
+    <text x="0" y="160" text-anchor="middle" fill="#555" font-size="20">Transitions from flowering to</text>
+    <text x="0" y="185" text-anchor="middle" fill="#555" font-size="20">green seed pods.</text>
+  </g>
+  <g transform="translate(1941.9417382415922, 1941.9417382415922)">
+    <image href="species_assets/roe_deer.png" x="-100" y="-100" width="200" height="200" clip-path="url(#circle-clip)" preserveAspectRatio="xMidYMid slice" filter="url(#shadow)" />
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#fff" stroke-width="4" />
+    <text x="0" y="130" text-anchor="middle" fill="#2c3e50" font-size="28" font-weight="bold">Roe Deer</text>
+    <text x="0" y="160" text-anchor="middle" fill="#555" font-size="20">Fawns are born</text>
+    <text x="0" y="185" text-anchor="middle" fill="#555" font-size="20">in surrounding woodlands.</text>
+  </g>
+  <g transform="translate(2118.718433538229, 2118.718433538229)">
+    <image href="species_assets/common_tern.png" x="-100" y="-100" width="200" height="200" clip-path="url(#circle-clip)" preserveAspectRatio="xMidYMid slice" filter="url(#shadow)" />
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#fff" stroke-width="4" />
+    <text x="0" y="130" text-anchor="middle" fill="#2c3e50" font-size="28" font-weight="bold">Common Tern</text>
+    <text x="0" y="160" text-anchor="middle" fill="#555" font-size="20">Actively nesting and</text>
+    <text x="0" y="185" text-anchor="middle" fill="#555" font-size="20">establishing breeding territories.</text>
+  </g>
+  <g transform="translate(2586.666554575202, 1791.171425740336)">
+    <image href="species_assets/cuttlefish.png" x="-100" y="-100" width="200" height="200" clip-path="url(#circle-clip)" preserveAspectRatio="xMidYMid slice" filter="url(#shadow)" />
+    <circle cx="0" cy="0" r="100" fill="none" stroke="#fff" stroke-width="4" />
+    <text x="0" y="130" text-anchor="middle" fill="#2c3e50" font-size="28" font-weight="bold">Cuttlefish</text>
+    <text x="0" y="160" text-anchor="middle" fill="#555" font-size="20">Migrating into shallow</text>
+    <text x="0" y="185" text-anchor="middle" fill="#555" font-size="20">waters to breed.</text>
+  </g>
+</svg>
